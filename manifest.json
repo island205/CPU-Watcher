@@ -1,0 +1,10 @@
+{
+	"name":"CPU Watcher",
+	"version":"1.0",
+	"content_scripts":[
+		{
+			"matches": ["http://*/*"],
+		  "js":["flotr2.js","content.js"]
+		}
+	]
+}
